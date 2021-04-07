@@ -1,0 +1,86 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - react-native > connect > debug:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > body-parser > debug:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > compression > debug:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > connect-timeout > debug:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > express-session > debug:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > finalhandler > debug:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > morgan > debug:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > serve-index > debug:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > serve-static > send > debug:
+        patched: '2021-04-07T08:17:20.746Z'
+  'npm:hoek:20180212':
+    - react-native > joi > hoek:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > joi > topo > hoek:
+        patched: '2021-04-07T08:17:20.746Z'
+  'npm:lodash:20180130':
+    - react-native > lodash:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > yeoman-environment > lodash:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > yeoman-generator > lodash:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > plist > xmlbuilder > lodash:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > yeoman-environment > inquirer > lodash:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > yeoman-generator > inquirer > lodash:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > yeoman-generator > yeoman-environment > lodash:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > yeoman-generator > yeoman-environment > inquirer > lodash:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > yeoman-generator > html-wiring > cheerio > lodash:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > xcode > simple-plist > plist > xmlbuilder > lodash:
+        patched: '2021-04-07T08:17:20.746Z'
+  'npm:mime:20170907':
+    - react-native > connect > serve-static > send > mime:
+        patched: '2021-04-07T08:17:20.746Z'
+  'npm:ms:20170412':
+    - react-native > connect > debug > ms:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > connect-timeout > ms:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > body-parser > debug > ms:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > compression > debug > ms:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > connect-timeout > debug > ms:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > express-session > debug > ms:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > finalhandler > debug > ms:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > morgan > debug > ms:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > serve-index > debug > ms:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > serve-static > send > ms:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > serve-static > send > debug > ms:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > serve-favicon > ms:
+        patched: '2021-04-07T08:17:20.746Z'
+  'npm:negotiator:20160616':
+    - react-native > connect > compression > accepts > negotiator:
+        patched: '2021-04-07T08:17:20.746Z'
+    - react-native > connect > serve-index > accepts > negotiator:
+        patched: '2021-04-07T08:17:20.746Z'
+  'npm:tunnel-agent:20170305':
+    - react-native > yeoman-generator > download > caw > tunnel-agent:
+        patched: '2021-04-07T08:17:20.746Z'
